@@ -24,7 +24,7 @@ import { HousingLocation } from '../housinglocation'; //未來使用新的介面
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent { //建立新介面的單一實例項
-  housingLocation: HousingLocation = {
+  housingLocation: HousingLocation = { //HousingLocation 是 housingLocation 屬性的型別。
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
