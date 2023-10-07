@@ -20,6 +20,7 @@ import { RouterModule } from '@angular/router'; //導入 RouterModule
       </a>
       <section class="content">
       <router-outlet></router-outlet>
+      <!-- 動態的占位符。根據目前的路由狀態，Angular 將在這個位置渲染相對應的組件。 -->
       </section>
     </main>
   `,

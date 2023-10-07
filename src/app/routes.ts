@@ -10,7 +10,7 @@ const routeConfig: Routes = [
     title: 'Home page'
   },
   {
-    path: 'details/:id',
+    path: 'details/:id', //:id是動態的，並且會根據程式碼請求路由的方式而變化。
     component: DetailsComponent,
     title: 'Home details'
   }
