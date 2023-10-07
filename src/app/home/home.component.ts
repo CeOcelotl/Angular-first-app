@@ -15,7 +15,10 @@ import { HousingLocation } from '../housinglocation'; //未來使用新的介面
       </form>
     </section>
     <section class="results">
-      <app-housing-location></app-housing-location>
+      <app-housing-location [housingLocation]="housingLocation"></app-housing-location> <!-- [attribute] = "value"-->
+      <!-- 將名為 "housingLocation" 的屬性值傳遞給名為 "app-housing-location" 的元件。  -->
+      <!-- 左邊的 housingLocation 是 HousingLocationComponent 的接收屬性名稱 -->
+      <!-- 右邊的 housingLocation 是 HomeComponent 中你想傳遞給 HousingLocationComponent 的資料名稱 -->
     </section>
   `,
   styleUrls: ['./home.component.css'],
